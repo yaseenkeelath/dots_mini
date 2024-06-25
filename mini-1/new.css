@@ -1,0 +1,393 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    background-image: url(fee6bd751bd3a955ebdb5219e95a8c8c.jpg); /* Add your image path */
+    background-size: cover;
+    background-position: center;
+    height: 590px;
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+#hero h2{
+    font-size: 50px;
+}
+
+#hero p{
+    font-size: 20px;    
+}
+
+/* image-caption -1*/
+
+#image-caption-1 {
+    position: absolute;
+    left: 60%;
+    top: 45%;
+    transform: translateY(-50%);
+    color:#009ABF;
+    text-align: center;
+    padding: 10px;
+  }
+
+  #image-caption-1 h5{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: san 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+/* image-caption -2*/
+  #image-caption-2 {
+    position: absolute;
+    left: 60%;
+    top: 45%;
+    transform: translateY(-50%);
+    color:#009ABF;
+    text-align: center;
+    padding: 10px;
+  }
+
+  #image-caption-2 h5{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: san 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+
+
+.hero-button {
+    display: inline-block;
+    margin-top: 10px;
+
+    padding: 10px 20px;
+    background-color: #009ABF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+    background-color: #d64b2a;
+}
+
+footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Existing CSS remains the same */
+
+/* Styling for Services Section */
+#services {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;  
+    text-align: left;
+    background-image: url(5th.jpeg);
+    background-size: co;
+}
+
+#services h2 {
+    color:rgb(252, 218, 187);
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+#services p{
+    color: #f8f8f8;
+    padding-left: 14px;
+}
+
+#services ul {
+    list-style-type: circle;
+    color: white;
+    margin-left: 20px;
+}
+
+#services li {
+    margin-bottom: 10px;
+}
+
+/* Styling for About Section */
+#about {
+    background-color: #f0f0f0;
+    background-image: url(about-2.jpeg);
+    margin-top: 8px;
+    padding: 20px;
+    text-align: left;
+}
+
+#about h2 {
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+#about p{
+    color: white;
+}
+
+/* Styling for Contact Section */
+#contact {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    background-image: url(about-1.jpeg);
+    
+}
+
+#contact h2 {
+    color: #dc3545;
+    margin-bottom: 15px;
+}
+
+#contact p {
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* Hover Effects */
+#services li:hover,
+#contact p:hover {
+    color: #0056b3;
+    cursor: pointer;
+}
+
+/* Responsive Design Adjustments */
+@media screen and (max-width: 768px) {
+    #services, #about, #contact {
+        text-align: center;
+    }
+
+    #services ul {
+        list-style-type: none;
+        padding: 0;
+    }
+}
+
+
+
+/*login popup */
+
+.popup{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;          /* login pop control */
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.popup h2{
+text-align: center;
+padding-left: 25px;
+padding-top: 20px;
+font-weight: 700;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#loginogbutton{
+    background: linear-gradient(to left,#C65FEF, #75C0E0);
+    width: 330px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    border-radius: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+#main{
+    padding-top: 30px;
+}
+
+#passmove{
+    margin-top: 40px;
+}
+
+
+
+.forgotpass{
+    display: flex;
+    justify-content: right;
+    margin-right: 12px;
+    font-size: 12px;
+    color: rgb(189,189,189);
+}
+
+#signups{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;    
+    font-size: 12px;
+    color: rgb(189,189,189);
+}
+
+.threeicons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.threeicons i{
+    font-size: 30px;
+}
+
+
+.popupcontent{
+    margin-top:60px;
+    height: 500px;
+    width: 390px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    
+}
+
+.popupcontent input{
+   
+    margin-bottom: px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid rgb(189,189,189);  
+}
+
+
+.popupcontent h5{
+    margin-left: 20px;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+}
+
+
+/*register popup */
+
+.popup2{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    display: none;  /*register pop control */
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.popup2 h2{
+
+   position: relative;
+   font-family: Arial, Helvetica, sans-serif;
+   padding-left: 15px;
+   font-weight: bolder;
+   margin-bottom: 40px;
+    }
+    
+
+.popupcontent2{
+    height: 500px;
+    width: 390px;
+    background: white;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    height: auto;
+    
+    
+}
+
+.popupcontent2 input{
+
+    margin-bottom: px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid rgb(189,189,189);
+    margin-bottom: 25px;
+
+}
+
+.popupcontent2 h5{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+     
+}
+
+#checklistone{
+    margin-top: 10px;
+}
+
+#checkboxreg{
+    margin-top: 3px;
+}
+
+#agreenote{
+    position: absolute;
+    margin-left: 45px;
+}
+
+#registerogbutton{
+    
+    background: linear-gradient(to left,#C65FEF, #75C0E0);
+    width: 330px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    border-radius: 20px;
+    color: white;
+    margin-top: 40px;
+    
+}

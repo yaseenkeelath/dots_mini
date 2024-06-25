@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="secondpage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row" id="heading">
+            <h1 style="font-family: Arial, Helvetica, sans-serif; font-size:25px;  font-weight:bolder;">New Employee
+                Details</h1>
+            <h3 id="small"
+                style="font-family: Arial, Helvetica, sans-serif; font-weight:200; font-size:14px; color:grey;">Please
+                fill
+                out your information below</h3>
+        </div>
+
+        <section class="first">
+            <h3 id="small" class="my-5"
+                style="font-family: Arial, Helvetica, sans-serif; font-weight:200; font-weight:bolder;  font-size:16px; color:black;">
+                Personal Information</h3>
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <h3 id="small"
+                            style="font-family: Arial, Helvetica, sans-serif; font-weight:200; font-size:14px; color:black;">
+                            Name</h3>
+                    </div>
+                    <div class="col">
+                        <h3 id="small"
+                            style="font-family: Arial, Helvetica, sans-serif; font-weight:200; font-size:14px; color:black;">
+                            Birth Date</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3"><input type="text" class="form-control" id="firstname" placeholder="First name">
+                        <label id="namesignal" for="firstname">First Name</label>
+                        
+                    </div>
+
+                    <div class="col-3"><input type="text" id="lastname" class="form-control" placeholder="Last name">
+                        <label id="lastnamesignal" for="lastname">Last Name</label>
+                    </div>
+
+                    <!--drop down one-->
+                    <div class="col-2">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Please enter month
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">january</a>
+                                <a class="dropdown-item" href="#">February</a>
+                                <a class="dropdown-item" href="#">March</a>
+                            </div>
+                        </div>
+
+                        <label for="lastname">Month</label>
+                    </div>
+                    <!--drop down secong-->
+                    <div class="col-2">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Please enter Day
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">1</a>
+                                <a class="dropdown-item" href="#">2</a>
+                                <a class="dropdown-item" href="#">3</a>
+                            </div>
+                        </div><label for="lastname">Day</label>
+                    </div>
+                    <!--drop down third-->
+                    <div class="col-2">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Please enter year
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">2020</a>
+                                <a class="dropdown-item" href="#">2021</a>
+                                <a class="dropdown-item" href="#">2022</a>
+                            </div>
+                        </div><label for="lastname">Year</label>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+        <section id="address">
+            <h3 id="small" class="mt-5"
+                style="font-family: Arial, Helvetica, sans-serif; font-weight:200; font-weight:bolder;  font-size:16px; color:black;">
+                Address</h3>
+
+            <div class="row">
+                <div class="col mt-3"><input type="text" class="form-control" id="adressinput" placeholder="">
+                    <label id="adressinner" for="firstname">street address</label>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col mt-4"><input type="text" class="form-control" id="firstname" placeholder="">
+                    <label for="firstname">street address Line 2</label>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-6 mt-4"><input type="text" class="form-control" id="firstname" placeholder="">
+                    <label for="firstname">City</label>
+                </div>
+
+                <div class="col-6 mt-4"><input type="text" class="form-control" id="firstname" placeholder="">
+                    <label for="firstname">State</label>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col ">
+                    <input type="text" class="form-control mt-4" id="firstname" placeholder="">
+                    <label for="firstname">Post Code</label>
+                </div>
+            </div>
+
+            <!--phone number & email-->
+
+            <div class="row mt-5">
+                <div class="col">
+                    <h3 id="small"
+                        style="font-family: Arial, Helvetica, sans-serif; font-weight:200;font-weight:bolder;  font-size:16px; color:black;">
+                        Phone Number</h3>
+                </div>
+                <div class="col">
+                    <h3 id="small"
+                        style="font-family: Arial, Helvetica, sans-serif; font-weight:200; font-weight:bolder;  font-size:16px; color:black;">
+                        E-mail</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 mt-2"><input type="number" class="form-control" id="phonenumber" placeholder="(000) 000-0000">
+                <label id="phonenumberinner" for="phonenumber"></label>
+                </div>
+
+                <div class="col-6 mt-2"><input type="email" class="form-control" id="emailinput"
+                        placeholder="ex:myname@gmial.com">
+                    <label class="mt-1" id="emialinner" for="emailinput">example@example.com</label>
+                </div>
+            </div>
+
+
+            <!--emergency contact-->
+
+
+            <div class="row mt-5">
+                <div class="col">
+                    <h3 id="small"
+                        style="font-family: Arial, Helvetica, sans-serif; font-weight:200;font-weight:bolder;  font-size:16px; color:black;">
+                        Emergency Contact name</h3>
+                </div>
+                <div class="col">
+                    <h3 id="small"
+                        style="font-family: Arial, Helvetica, sans-serif; font-weight:200; font-weight:bolder;  font-size:16px; color:black;">
+                        Citizenship</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 mt-2"><input type="tel" class="form-control" id="" placeholder="">
+
+                </div>
+
+                <div class="col-6 mt-2"><input type="email" class="form-control" id="firstname" placeholder="">
+
+                </div>
+            </div>
+
+            <!--check boxes-->
+
+            <div class="row mt-5">
+                <div class="col">
+                    <h3 id="small"
+                        style="font-family: Arial, Helvetica, sans-serif; font-weight:200;font-weight:bolder;  font-size:16px; color:black;">
+                        Usual Days of Employement</h3>
+                </div>
+
+                <!--monday and tuesday-->
+
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Monday
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">Tuesday</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!--wednesday and thursday-->
+
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                wednesday
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">Thursday</label>
+                        </div>
+                    </div>
+                </div>
+    
+<!--friday-->
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">Friday</label>
+                        </div>
+                    </div>
+                </div>
+
+<!--start date label-->
+
+                <div class="row mt-5">
+                    <div class="col">
+                        <h3 id="small"
+                            style="font-family: Arial, Helvetica, sans-serif; font-weight:200;font-weight:bolder;  font-size:16px; color:black;">
+                            Start Date</h3>
+                    </div>
+
+                    <!--start date drop down-->
+<div class="row mt-2">
+    
+                    <div class="col-3">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Please select a month
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">january</a>
+                                <a class="dropdown-item" href="#">February</a>
+                                <a class="dropdown-item" href="#">March</a>
+                            </div>
+                        </div>
+
+                        <label for="lastname">Month</label>
+                    </div>
+                    <!--drop down secong-->
+                    <div class="col-3">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Please select a Day
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">1</a>
+                                <a class="dropdown-item" href="#">2</a>
+                                <a class="dropdown-item" href="#">3</a>
+                            </div>
+                        </div><label for="lastname">Day</label>
+                    </div>
+                    <!--drop down third-->
+                    <div class="col-3">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Please select a Year
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">2020</a>
+                                <a class="dropdown-item" href="#">2021</a>
+                                <a class="dropdown-item" href="#">2022</a>
+                            </div>
+                        </div><label for="lastname">Year</label>
+                    </div>
+                </div></div>
+
+<!--contract end date-->
+
+<div class="row mt-5">
+    <div class="col">
+        <h3 id="small"
+            style="font-family: Arial, Helvetica, sans-serif; font-weight:200;font-weight:bolder;  font-size:16px; color:black;">
+            Contract End Date(if applicable)</h3>
+    </div>
+
+<!--drop down for end contract-->
+
+
+<div class="row mt-2">
+    
+    <div class="col-3">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Please select a month
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </div>
+
+        <label for="lastname">Month</label>
+    </div>
+    <!--drop down secong-->
+    <div class="col-3">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Please select a Day
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </div><label for="lastname">Day</label>
+    </div>
+    <!--drop down third-->
+    <div class="col-3">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Please select a Year
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </div><label for="lastname">Year</label>
+    </div>
+</div></div>
+
+<div class="row my-5">
+    <div class="col-10"></div>
+    <div class="col-2">
+
+<a href="bankdetails.html"><button type="button" id="nextbutton" class="btn btn-primary btn-lg">Next</button></a></div>
+    
+        </section>
+
+    </div>
+
+
+
+
+<script src="secondpagejs.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
